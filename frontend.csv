@@ -1,0 +1,55 @@
+name,ring,quadrant,isNew,description
+Babel,adopt,tools,FALSE,Compiler
+Browserslist,adopt,tools,FALSE,"Share target browsers between different front-end tools, like Autoprefixer, Stylelint and babel-preset-env"
+CloudFront,adopt,platforms,FALSE,"CDN (please see Lambda@Edge for server-side redirects"
+CSS Modules,adopt,techniques,FALSE,
+CSS Theming with Custom Properties,adopt,techniques,TRUE,
+Cypress.io,adopt,tools,FALSE,"JavaScript End to End Testing Framework"
+enzyme,adopt,tools,TRUE,"JavaScript Testing utilities for React"
+flux,adopt,techniques,FALSE,"Application architecture for building user interfaces"
+jest,adopt,tools,FALSE,"Testing framework"
+lodash,adopt,languages & frameworks,FALSE,
+Luxon,adopt,tools,FALSE,"A functional, immutable library to work with dates and times in Javascript"
+Next.js,adopt,languages & frameworks,FALSE,"The all in one framework choice for kickstarting a new project"
+Node.js,adopt,platforms,FALSE,"nodejs as a server"
+PostCSS,adopt,tools,FALSE,"A tool for transforming styles with JS plugins"
+prettier-standard,adopt,tools,FALSE,"Opinionated code formatter"
+raygun,adopt,platforms,FALSE,"Error reporting service"
+React,adopt,languages & frameworks,FALSE,"DOM manipulation and data flow"
+react-intl,adopt,tools,TRUE,"React components and an API to format dates, numbers, and strings, including pluralization and handling translations"
+standardJS,adopt,tools,FALSE,"JavaScript Style Guide, with linter & automatic code fixer"
+Static pages,adopt,techniques,FALSE,Serve static pages
+Storybook,adopt,techniques,FALSE,"UI components development and test in isolation for React"
+TypeScript,adopt,languages & frameworks,FALSE,Superset of JS with types
+GraphQL,trial,languages & frameworks,FALSE,"A data query and manipulation language for APIs (alternative to REST)"
+typesafe-actions,trial,tools,TRUE,"Typesafe utilities designed to reduce types verbosity and complexity in Redux Architecture."
+Ducks,assess,techniques,TRUE,"Modular Redux approach"
+Lambda@Edge,assess,platforms,FALSE,
+Styled-components,assess,tools,FALSE,
+Redux,assess,tools,FALSE,"Deprecated in favor of React Hooks"
+redux-thunk,assess,tools,FALSE,"Deprecated in favor of React Hooks"
+Angular 4,hold,languages & frameworks,FALSE,
+Babelify,hold,tools,FALSE,
+bootstrap,hold,tools,FALSE,
+bower,hold,tools,FALSE,
+browserify,hold,tools,FALSE,"Bundler"
+chai,hold,tools,FALSE,"BDD/TDD assertion library for node and the browser"
+cheerio,hold,tools,FALSE,"Tiny, fast, and elegant implementation of core jQuery designed specifically for the server"
+Create React App,hold,tools,FALSE,"Deprecated in favor of Next.js"
+eslint,hold,tools,FALSE,"pluggable linting utility for JavaScript and JSX"
+Flow,hold,languages & frameworks,FALSE,"Gradual type system for JS"
+Foundation sites,hold,languages & frameworks,FALSE,
+grunt,hold,tools,FALSE,
+gulp,hold,tools,FALSE,"Build system"
+haml,hold,languages & frameworks,FALSE,
+jQuery,hold,languages & frameworks,FALSE,"DOM manipulation library"
+JSON-API,hold,techniques,TRUE,"A specification for building APIs in JSON"
+mocha,hold,tools,FALSE,"The vast majority of the tests have been written with Mocha (aphrodite, persephone, apollo). Although the new projects did not use it at all, preferring Jest. Probably it's time to move on."
+moment,hold,tools,FALSE,
+Nightwatch,hold,tools,FALSE,"End-to-End testing solution for websites, written on Node.js. Same as mocha.\nNot in use on newer ones, where Cypress is the queen."
+pug,hold,languages & frameworks,FALSE,
+require.js,hold,tools,FALSE,
+sass,hold,languages & frameworks,FALSE,
+Styleguidist,hold,tools,FALSE,"Component demo"
+tslint,hold,tools,FALSE,"An extensible static analysis linter for the TypeScript language"
+Webpack,hold,tools,FALSE,"Bundler – Underlying dependency of many other tools (e.g.: next.js, storybook). Please do NOT use it directly"
